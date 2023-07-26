@@ -19,7 +19,7 @@ public class Main {
         int numeroLeituras = Integer.parseInt(sc.nextLine());
         for(int i = 0; i < numeroLeituras; i++){
             int numeroInformado = Integer.parseInt(sc.nextLine());
-            System.out.printf("Fib(%d) = %d", numeroInformado, fibonacci.get(numeroInformado));
+            System.out.printf("Fib(%d) = %d\n", numeroInformado, fibonacci.get(numeroInformado));
         }
 
         sc.close();
